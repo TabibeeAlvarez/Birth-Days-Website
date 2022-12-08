@@ -1273,18 +1273,16 @@ html{
     }
 
     #section3 .arianne .arianne1{
-        width: 350px;
-        margin-top: -425px;
-        margin-left: 1100px;
-        display: none;
+        width: 200px;
+        margin-top: 125px;
+        margin-left: 80px;
     }
 
     #section3 .arinnejay .ariannejayy{
-        width: 350px;
+        width: 200px;
         border-radius: 50%;
-        margin-top: -500px;
-        margin-left: 300px;
-        display: none;
+        margin-top: 200px;
+        margin-left: 80px;
     }
 
     #section3 table{
