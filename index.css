@@ -1430,14 +1430,14 @@ input.search:hover{
     nav .fa-pen{
         display: flex;
         color: white;
-        margin-left: 280px;
+        margin-left: 320px;
         padding: 10px;
     }
 
     .button_manage{
         width: 200px;
         font-size: 15px;
-        margin-left: 60px;
+        margin-left: 76px;
         margin-top: 30px;
     }
 
@@ -1446,12 +1446,12 @@ input.search:hover{
     }
 
     .img1{
-        margin-left: 60px;
+        margin-left: 80px;
         width: 200px;
     }
 
     .who{
-        margin-left: 80px;
+        margin-left: 100px;
         font-size: 15px;
         margin-top: -20px;
     }
@@ -1466,7 +1466,7 @@ input.search:hover{
     .img3{
         float: right;
         margin-top: -80px;
-        margin-right: 120px;
+        margin-right: 80px;
         width: 80px;
     }
 
@@ -1479,7 +1479,7 @@ input.search:hover{
 
     .img5{
         float: right;
-        margin-right: 120px;
+        margin-right: 80px;
         width: 80px;
         margin-top: -80px;
     }
@@ -1493,7 +1493,7 @@ input.search:hover{
 
     .img7{
         float: right;
-        margin-right: 120px;
+        margin-right: 80px;
         width: 80px;
         margin-top: -80px;
     }

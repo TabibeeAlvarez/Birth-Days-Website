@@ -11,3 +11,4 @@
 //         window.location.href = 'https://www.facebook.com/tabetlog'
 //     }) 
 // }
+alert("This site is not available right now try again later")
