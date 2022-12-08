@@ -10,9 +10,9 @@ alert("Click the lj's photo to enter to his website")
 //     })
 // }
 
-function manages(){
-    document.getElementById("manages").classList.toggle("active")
-}
+// function manages(){
+//     document.getElementById("manages").classList.toggle("active")
+// }
 
 // function img4(){
 //     document.querySelector('#img4')
