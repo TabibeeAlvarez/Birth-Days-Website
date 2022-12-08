@@ -699,8 +699,8 @@ input.search:hover{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) scale(0) ;
-        width: 1550px;
-        height: 800px;
+        width: 1400px;
+        height: 600px;
         z-index: 2;
         background-color: #333;
         /* background-image: url(/sunset.jpg); */

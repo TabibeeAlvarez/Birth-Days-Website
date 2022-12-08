@@ -1,8 +1,7 @@
-// img2
-// alert("Double tap my picture to open hehe")
-// alert("Sorry sa mga maling margin")
-// alert("Hindi kopa gamay ang media query sorry  na uwu next time gagalingan kopa")
-// alert("Play mo yung video")
+alert("ALERT!!!!!!!!!!")
+alert("To day is LJ CLAUD's birthday Greate him on his NGL account you can see his ngl inside the website")
+alert("Give the post like if you like this sht!")
+alert("Click the lj's photo to enter to his website")
 
 // function img6(){
 //     document.querySelector('#img6')
