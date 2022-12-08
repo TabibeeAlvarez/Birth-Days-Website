@@ -1500,7 +1500,7 @@ input.search:hover{
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (min-width: 0px) and (max-width: 319px){
     main{
         background-color: rgb(7, 7, 7);
         background-repeat: no-repeat;
