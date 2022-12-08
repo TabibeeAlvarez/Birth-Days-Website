@@ -1098,6 +1098,8 @@ html{
 
     #section2{
         background-image: url(bgstars.jpg);
+        height: 100vh;
+        width: 100%;
     }
 
     #section2 div img{
@@ -1173,11 +1175,17 @@ html{
     }
 
     /* section3 */
+
+    #secition3{
+        background-image: url(bgstars.jpg);
+        height: 100px;
+        width: 100%;
+    }
     
     #section3 .bgmoon{
-        width: 400px;
+        width: 350px;
         border-radius: 1rem;
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
     #section3 .triviamoon{
@@ -1185,12 +1193,12 @@ html{
         text-shadow: 2px 2px 8px black;
         font-size: 10px;
         margin-top: -100px;
-        margin-left: 50px;
+        margin-left: 20px;
     }
 
     #section3 .lunar{
         margin-top: 100px;
-        width: 400px;
+        width: 350px;
         margin-left: 15px;
     }
 
@@ -1198,7 +1206,7 @@ html{
         color: white;
         text-shadow: 2px 2px 8px red;
         font-size: 10px;
-        margin-left: 50px;
+        margin-left: 40px;
     }
 
     #section3 .arianne .arianne1{

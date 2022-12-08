@@ -1,2 +1,3 @@
-// alert ('Zoom out mo pare kung naka zoom para maka kuha ka ng great experience')
-// alert ('Try mo din mag scroll down kung tinatamad ka pindutin mo nalang yung "ABOUT" sa upper right')
+alert("ALERT!!!!!!!!! PLEASE READ")
+alert("Hi my name is LJ CLAUD and im 17 years old this year hope you enjoy this website made by edgar rada jr")
+alert("ENJOYY!!")
