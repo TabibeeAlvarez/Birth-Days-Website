@@ -216,8 +216,6 @@ html{
 /*  section 3  */
 #section3{
     background-image: url(bgstars.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 1600px;
 }
 
@@ -329,4 +327,943 @@ html{
     font-size: 13px;
     margin-left: 540px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1441px){
+
+    #section1{
+        background-image: url(31.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+
+    #sectiont1 img{
+        margin-left: 550px;
+        margin-top: -5px;
+        display: none;
+        animation-name: ljwhiteanimation;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes ljwhiteanimation{
+        from{
+            left: 0%;
+            opacity: 0%;
+        }
+    
+        to{
+            left: 0%;
+            opacity: 100%;
+        }
+    }
+
+    #section1 nav{
+        background-color: black;
+        width: 100%;
+        height: 70px;
+        position: fixed;
+    }
+
+    #section1 .moon{
+        margin-left: 600px;
+        margin-top: 150px;
+    }
+
+    #section1 .buysell{
+        margin-left: 620px;
+        margin-top: -200px;
+        width: 450px;
+        transition: 0.3s;
+    }
+
+    #section1 .buysell:hover{
+        width: 470px;
+        transition: 0.3s;
+        margin-left: 510px;
+    }
+
+    /* section2 */
+
+    #section2{
+        background-image: url(bgstars.jpg);
+    }
+
+    #section2 div img{
+        margin-top: -300px;
+        margin-right: 150px;
+    }
+
+    #section2 div .talatanilj{
+        margin-top: 350px;
+    }
+
+    /* section3 */
+    
+    #section3 .bgmoon{
+        width: 800px;
+        border-radius: 1rem;
+        margin-left: 120px;
+    }
+
+    #section3 .triviamoon{
+        color: white;
+        text-shadow: 2px 2px 8px black;
+        font-size: 25px;
+        margin-left: 150px;
+    }
+
+    #section3 .lunar{
+        margin-top: 190px;
+        margin-left: 900px;
+    }
+
+    #section3 .trivialunar{
+        color: white;
+        text-shadow: 2px 2px 8px red;
+        font-size: 25px;
+        margin-left: 900px;
+    }
+
+    #section3 .arianne .arianne1{
+        width: 350px;
+        margin-top: -425px;
+        margin-left: 1100px;
+    }
+
+    #section3 .arinnejay .ariannejayy{
+        width: 350px;
+        border-radius: 50%;
+        margin-top: -500px;
+        margin-left: 300px;
+    }
+
+    #section3 table{
+        margin-left: 400px;
+    }
+
+    /*  FOOTER   */
+
+    #section4{
+        background-color: #333;
+        height: 170px;
+    }
+    
+    #section4 .sheesh{
+        width: 250px;
+        margin-left: 790px;
+    }
+    
+    #section4 .fa-facebook{
+        font-size: 30px;
+        margin-left: 830px;
+        color: #ff9d00;
+        margin-top: 10px;
+    }
+    
+    #section4 .fa-tiktok{
+        font-size: 30px;
+        color: #ff9d00;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    
+    #section4 .fa-youtube{
+        font-size: 30px;
+        color: #ff9d00;
+        margin-left: 30px;
+        margin-top: 10px;   
+    }
+    
+    #section4 .copyright{
+        font-size: 13px;
+        margin-left: 680px;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1024px){
+
+    #section1{
+        background-image: url(31.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+
+    #section1 nav{
+        background-color: black;
+        width: 100%;
+        height: 70px;
+        position: fixed;
+    }
+
+    #section1 .moon{
+        margin-left: 500px;
+        margin-top: 150px;
+    }
+
+    #section1 .buysell{
+        margin-left: 520px;
+        margin-top: -200px;
+        width: 450px;
+        transition: 0.3s;
+    }
+
+    #section1 .buysell:hover{
+        width: 470px;
+        transition: 0.3s;
+        margin-left: 510px;
+    }
+
+    /* section2 */
+
+    #section2{
+        background-image: url(bgstars.jpg);
+    }
+
+    #section2 div img{
+        margin-top: -300px;
+        margin-right: 100px;
+    }
+
+    #section2 div .talatanilj{
+        margin-top: 350px;
+        margin-left: 50px;
+    }
+
+    /* section3 */
+    
+    #section3 .bgmoon{
+        width: 800px;
+        border-radius: 1rem;
+        margin-left: 40px;
+    }
+
+    #section3 .triviamoon{
+        color: white;
+        text-shadow: 2px 2px 8px black;
+        font-size: 25px;
+        margin-left: 70px;
+    }
+
+    #section3 .lunar{
+        margin-top: 190px;
+        margin-left: 720px;
+    }
+
+    #section3 .trivialunar{
+        color: white;
+        text-shadow: 2px 2px 8px red;
+        font-size: 25px;
+        margin-left: 700px;
+    }
+
+    #section3 .arianne .arianne1{
+        width: 350px;
+        margin-top: -425px;
+        margin-left: 980px;
+    }
+
+    #section3 .arinnejay .ariannejayy{
+        width: 350px;
+        border-radius: 50%;
+        margin-top: -500px;
+        margin-left: 150px;
+    }
+
+    #section3 table{
+        margin-left: 230px;
+    }
+
+    /*  FOOTER   */
+
+    #section4{
+        background-color: #333;
+        height: 170px;
+    }
+    
+    #section4 .sheesh{
+        width: 250px;
+        margin-left: 600px;
+    }
+    
+    #section4 .fa-facebook{
+        font-size: 30px;
+        margin-left: 630px;
+        color: #ff9d00;
+        margin-top: 10px;
+    }
+    
+    #section4 .fa-tiktok{
+        font-size: 30px;
+        color: #ff9d00;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    
+    #section4 .fa-youtube{
+        font-size: 30px;
+        color: #ff9d00;
+        margin-left: 30px;
+        margin-top: 10px;   
+    }
+    
+    #section4 .copyright{
+        font-size: 13px;
+        margin-left: 480px;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    
+    #section1{
+        background-image: url(31.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+
+    #section1 nav{
+        background-color: black;
+        width: 100%;
+        height: 70px;
+        position: fixed;
+    }
+
+    #section1 .moon{
+        margin-left: 300px;
+        margin-top: 150px;
+    }
+
+    #section1 .buysell{
+        margin-left: 320px;
+        margin-top: -200px;
+        width: 450px;
+        transition: 0.3s;
+    }
+
+    #section1 .buysell:hover{
+        width: 470px;
+        transition: 0.3s;
+        margin-left: 510px;
+    }
+
+    /* section2 */
+
+    #section2{
+        background-image: url(bgstars.jpg);
+    }
+
+    #section2 div img{
+        margin-top: -300px;
+        margin-right: 150px;
+        display: none;
+    }
+
+    #section2 div .talatanilj{
+        margin-top: 50px;
+        text-align: left;
+        font-size: 40px;
+    }
+
+    #section2 .fa-brands{
+        color: rgb(0, 110, 255);
+        font-size: 80px;
+        margin-left: 500px;
+        margin-top: 25px;
+    }
+    
+    #section2 .fa-brands:hover{
+        color: #ff9d00;
+        transition: 0.5s;
+    }
+
+    #section2 .ngl{
+        text-decoration: none;
+        color: white;
+        margin-left: 350px;
+        margin-top: -50px;
+        font-size: 30px;
+        animation-name: lantiteanimation;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-duration: 0.5s;
+    }
+    
+    @keyframes lantiteanimation{
+        from{
+            left: 0%;
+            opacity: 0%;
+        }
+    
+        to{
+            left: 0%;
+            opacity: 100%;
+        }
+    }
+
+    #section2 .play{
+        text-decoration: none;
+        color: rgb(0, 110, 255);
+        background-color: black;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 50px;
+        border-radius: 0.5rem;
+        box-shadow: 0px 0px 16px rgb(0, 110, 255);
+        margin-left: 150px;
+        transition: 0.3s;
+    }
+    
+    #section2 .play:hover{
+        color: #ff9d00;
+        box-shadow: 0px 0px 32px #ff9d00;
+        transition: 0.1s;
+        font-size: 37px;
+        margin-left: 885px;
+    }
+
+    /* section3 */
+    
+    #section3 .bgmoon{
+        width: 800px;
+        border-radius: 1rem;
+        margin-left: 120px;
+    }
+
+    #section3 .triviamoon{
+        color: white;
+        text-shadow: 2px 2px 8px black;
+        font-size: 25px;
+        margin-left: 150px;
+    }
+
+    #section3 .lunar{
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+
+    #section3 .trivialunar{
+        color: white;
+        text-shadow: 2px 2px 8px red;
+        font-size: 25px;
+        margin-left: 100px;
+    }
+
+    #section3 .arianne .arianne1{
+        width: 350px;
+        margin-top: -425px;
+        margin-left: 1100px;
+        display: none;
+    }
+
+    #section3 .arinnejay .ariannejayy{
+        width: 350px;
+        border-radius: 50%;
+        margin-top: -500px;
+        margin-left: 300px;
+        display: none;
+    }
+
+    #section3 table{
+        margin-left: 400px;
+        display: none;
+    }
+
+    /*  FOOTER   */
+
+    #section4{
+        background-color: #333;
+        height: 170px;
+    }
+    
+    #section4 .sheesh{
+        width: 250px;
+        margin-left: 400px;
+    }
+    
+    #section4 .fa-facebook{
+        font-size: 30px;
+        margin-left: 430px;
+        color: #ff9d00;
+        margin-top: 10px;
+    }
+    
+    #section4 .fa-tiktok{
+        font-size: 30px;
+        color: #ff9d00;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    
+    #section4 .fa-youtube{
+        font-size: 30px;
+        color: #ff9d00;
+        margin-left: 30px;
+        margin-top: 10px;   
+    }
+    
+    #section4 .copyright{
+        font-size: 13px;
+        margin-left: 280px;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 425px){
+    #section1{
+        background-image: url(31.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+
+    #section1 nav{
+        background-color: black;
+        width: 100%;
+        height: 50px;
+        position: fixed;
+    }
+
+    #section1 nav ul{
+        margin: 0%;
+        padding: 20px;
+        list-style-type: none;
+        overflow: hidden;
+        margin-right: -10px;
+        font-size: 8px;
+    } 
+
+    #section1 ul img{
+        width: 100px;
+        margin-left: 10px;
+    }
+
+    #section1 .moon{
+        margin-left: 50px;
+        width: 300px;
+        margin-top: 150px;
+    }
+
+    #section1 .buysell{
+        margin-left: 60px;
+        margin-top: -200px;
+        width: 300px;
+        transition: 0.3s;
+    }
+
+    #section1 .buysell:hover{
+        width: 470px;
+        transition: 0.3s;
+        margin-left: 510px;
+    }
+
+    /* section2 */
+
+    #section2{
+        background-image: url(bgstars.jpg);
+    }
+
+    #section2 div img{
+        margin-top: -300px;
+        margin-right: 150px;
+        display: none;
+    }
+
+    #section2 div .talatanilj{
+        margin-top: 150px;
+        margin-left: 20px;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    #section2 .fa-brands{
+        color: rgb(0, 110, 255);
+        font-size: 80px;
+        margin-left: 500px;
+        margin-top: 25px;
+        display: none;
+    }
+    
+    #section2 .fa-brands:hover{
+        color: #ff9d00;
+        transition: 0.5s;
+    }
+
+    #section2 .ngl{
+        text-decoration: none;
+        color: white;
+        margin-left: 100px;
+        margin-top: -50px;
+        font-size: 15px;
+        animation-name: lantiteanimation;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-duration: 0.5s;
+    }
+    
+    @keyframes lantiteanimation{
+        from{
+            left: 0%;
+            opacity: 0%;
+        }
+    
+        to{
+            left: 0%;
+            opacity: 100%;
+        }
+    }
+
+    #section2 .play{
+        text-decoration: none;
+        color: rgb(0, 110, 255);
+        background-color: black;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 25px;
+        border-radius: 0.5rem;
+        box-shadow: 0px 0px 16px rgb(0, 110, 255);
+        margin-left: 150px;
+        transition: 0.3s;
+    }
+    
+    #section2 .play:hover{
+        color: #ff9d00;
+        box-shadow: 0px 0px 32px #ff9d00;
+        transition: 0.1s;
+        font-size: 30px;
+        margin-left: 150px;
+    }
+
+    /* section3 */
+    
+    #section3 .bgmoon{
+        width: 400px;
+        border-radius: 1rem;
+        margin-left: 15px;
+    }
+
+    #section3 .triviamoon{
+        color: white;
+        text-shadow: 2px 2px 8px black;
+        font-size: 10px;
+        margin-top: -100px;
+        margin-left: 50px;
+    }
+
+    #section3 .lunar{
+        margin-top: 100px;
+        width: 400px;
+        margin-left: 15px;
+    }
+
+    #section3 .trivialunar{
+        color: white;
+        text-shadow: 2px 2px 8px red;
+        font-size: 10px;
+        margin-left: 50px;
+    }
+
+    #section3 .arianne .arianne1{
+        width: 350px;
+        margin-top: -425px;
+        margin-left: 1100px;
+        display: none;
+    }
+
+    #section3 .arinnejay .ariannejayy{
+        width: 350px;
+        border-radius: 50%;
+        margin-top: -500px;
+        margin-left: 300px;
+        display: none;
+    }
+
+    #section3 table{
+        margin-left: 400px;
+        display: none;
+    }
+
+    /*  FOOTER   */
+
+    #section4{
+        background-color: #333;
+        height: 170px;
+        display: none;
+    }
+    
+    #section4 .sheesh{
+        width: 250px;
+        margin-left: 400px;
+        display: none;
+    }
+    
+    #section4 .fa-facebook{
+        font-size: 30px;
+        margin-left: 430px;
+        color: #ff9d00;
+        margin-top: 10px;
+        display: none;
+    }
+    
+    #section4 .fa-tiktok{
+        font-size: 30px;
+        color: #ff9d00;
+        margin-left: 30px;
+        margin-top: 10px;
+        display: none;
+    }
+    
+    #section4 .fa-youtube{
+        font-size: 30px;
+        color: #ff9d00;
+        margin-left: 30px;
+        margin-top: 10px;   
+        display: none;
+    }
+    
+    #section4 .copyright{
+        font-size: 13px;
+        margin-left: 280px;
+        margin-top: 20px;
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 424px) and (min-width: 320px){
+    #section1{
+        background-image: url(31.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+
+    #section1 nav{
+        background-color: black;
+        width: 100%;
+        height: 50px;
+        position: fixed;
+    }
+
+    #section1 nav ul{
+        margin: 0%;
+        padding: 20px;
+        list-style-type: none;
+        overflow: hidden;
+        margin-right: -10px;
+        font-size: 8px;
+    } 
+
+    #section1 ul img{
+        width: 100px;
+        margin-left: 10px;
+    }
+
+    #section1 .moon{
+        margin-left: 50px;
+        width: 300px;
+        margin-top: 150px;
+    }
+
+    #section1 .buysell{
+        margin-left: 60px;
+        margin-top: -200px;
+        width: 300px;
+        transition: 0.3s;
+    }
+
+    #section1 .buysell:hover{
+        width: 470px;
+        transition: 0.3s;
+        margin-left: 510px;
+    }
+
+    /* section2 */
+
+    #section2{
+        background-image: url(bgstars.jpg);
+    }
+
+    #section2 div img{
+        margin-top: -300px;
+        margin-right: 150px;
+        display: none;
+    }
+
+    #section2 div .talatanilj{
+        margin-top: 150px;
+        margin-left: 20px;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    #section2 .fa-brands{
+        color: rgb(0, 110, 255);
+        font-size: 80px;
+        margin-left: 500px;
+        margin-top: 25px;
+        display: none;
+    }
+    
+    #section2 .fa-brands:hover{
+        color: #ff9d00;
+        transition: 0.5s;
+    }
+
+    #section2 .ngl{
+        text-decoration: none;
+        color: white;
+        margin-left: 100px;
+        margin-top: -50px;
+        font-size: 15px;
+        animation-name: lantiteanimation;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-duration: 0.5s;
+    }
+    
+    @keyframes lantiteanimation{
+        from{
+            left: 0%;
+            opacity: 0%;
+        }
+    
+        to{
+            left: 0%;
+            opacity: 100%;
+        }
+    }
+
+    #section2 .play{
+        text-decoration: none;
+        color: rgb(0, 110, 255);
+        background-color: black;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 25px;
+        border-radius: 0.5rem;
+        box-shadow: 0px 0px 16px rgb(0, 110, 255);
+        margin-left: 150px;
+        transition: 0.3s;
+    }
+    
+    #section2 .play:hover{
+        color: #ff9d00;
+        box-shadow: 0px 0px 32px #ff9d00;
+        transition: 0.1s;
+        font-size: 30px;
+        margin-left: 150px;
+    }
+
+    /* section3 */
+    
+    #section3 .bgmoon{
+        width: 400px;
+        border-radius: 1rem;
+        margin-left: 15px;
+    }
+
+    #section3 .triviamoon{
+        color: white;
+        text-shadow: 2px 2px 8px black;
+        font-size: 10px;
+        margin-top: -100px;
+        margin-left: 50px;
+    }
+
+    #section3 .lunar{
+        margin-top: 100px;
+        width: 400px;
+        margin-left: 15px;
+    }
+
+    #section3 .trivialunar{
+        color: white;
+        text-shadow: 2px 2px 8px red;
+        font-size: 10px;
+        margin-left: 50px;
+    }
+
+    #section3 .arianne .arianne1{
+        width: 350px;
+        margin-top: -425px;
+        margin-left: 1100px;
+        display: none;
+    }
+
+    #section3 .arinnejay .ariannejayy{
+        width: 350px;
+        border-radius: 50%;
+        margin-top: -500px;
+        margin-left: 300px;
+        display: none;
+    }
+
+    #section3 table{
+        margin-left: 400px;
+        display: none;
+    }
+
+    /*  FOOTER   */
+
+    #section4{
+        background-color: #333;
+        height: 170px;
+        display: none;
+    }
+    
+    #section4 .sheesh{
+        width: 250px;
+        margin-left: 400px;
+        display: none;
+    }
+    
+    #section4 .fa-facebook{
+        font-size: 30px;
+        margin-left: 430px;
+        color: #ff9d00;
+        margin-top: 10px;
+        display: none;
+    }
+    
+    #section4 .fa-tiktok{
+        font-size: 30px;
+        color: #ff9d00;
+        margin-left: 30px;
+        margin-top: 10px;
+        display: none;
+    }
+    
+    #section4 .fa-youtube{
+        font-size: 30px;
+        color: #ff9d00;
+        margin-left: 30px;
+        margin-top: 10px;   
+        display: none;
+    }
+    
+    #section4 .copyright{
+        font-size: 13px;
+        margin-left: 280px;
+        margin-top: 20px;
+        display: none;
+    }
+
 }
