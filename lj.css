@@ -1076,13 +1076,13 @@ html{
     }
 
     #section1 .moon{
-        margin-left: 50px;
+        margin-left: 30px;
         width: 300px;
         margin-top: 150px;
     }
 
     #section1 .buysell{
-        margin-left: 60px;
+        margin-left: 40px;
         margin-top: -200px;
         width: 300px;
         transition: 0.3s;
@@ -1185,7 +1185,7 @@ html{
     #section3 .bgmoon{
         width: 350px;
         border-radius: 1rem;
-        margin-left: 10px;
+        margin-left: 5px;
     }
 
     #section3 .triviamoon{
@@ -1199,7 +1199,7 @@ html{
     #section3 .lunar{
         margin-top: 100px;
         width: 350px;
-        margin-left: 15px;
+        margin-left: 5px;
     }
 
     #section3 .trivialunar{
