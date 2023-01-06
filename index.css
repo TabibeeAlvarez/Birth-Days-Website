@@ -524,7 +524,7 @@ body{
 #section1 .titeng{
     transform: translateY(0);
     opacity: 100;
-    filter: blur(5px);
+    filter: blur(0);
 }
 
     /*  patricia  */
@@ -550,7 +550,7 @@ body{
 #section1 .titengg{
     transform: translateY(0);
     opacity: 100;
-    filter: blur(5px);
+    filter: blur(0);
 }
 
 /*  lj  */
@@ -574,7 +574,7 @@ body{
 
 #section1 .titenggg{
     transform: translateY(0);
-    filter: blur(5px);
+    filter: blur(0);
     opacity: 100;
 }
 
@@ -628,7 +628,7 @@ body{
 #section1 .titeng{
     transform: translateY(0);
     opacity: 100;
-    filter: blur(5px);
+    filter: blur(0);
 }
 
     /*  patricia  */
@@ -654,7 +654,7 @@ body{
 #section1 .titengg{
     transform: translateY(0);
     opacity: 100;
-    filter: blur(5px);
+    filter: blur(0);
 }
 
 /*  lj  */
@@ -678,7 +678,7 @@ body{
 
 #section1 .titenggg{
     transform: translateY(0);
-    filter: blur(5px);
+    filter: blur(0);
     opacity: 100;
 }
 
@@ -736,7 +736,7 @@ body{
         #section1 .titeng{
             transform: translateY(0);
             opacity: 100;
-            filter: blur(5px);
+            filter: blur(0px);
         }
         
             /*  patricia  */
@@ -762,7 +762,7 @@ body{
         #section1 .titengg{
             transform: translateY(0);
             opacity: 100;
-            filter: blur(5px);
+            filter: blur(0px);
         }
         
         /*  lj  */
@@ -786,7 +786,7 @@ body{
         
         #section1 .titenggg{
             transform: translateY(0);
-            filter: blur(5px);
+            filter: blur(0px);
             opacity: 100;
         }
 
