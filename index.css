@@ -490,9 +490,9 @@ body{
     margin-left: 40px;
     width: 80px;
     transition: all 1.5s;
-    transform: translateY(-20px);
-    filter: blur(5px);
-    opacity: 0;
+    transform: translateY(0);
+    opacity: 100;
+    filter: blur(0);
 }
 
 #section1 .ed:hover{
@@ -502,9 +502,9 @@ body{
 }
 
 #section1 .titeng{
-    transform: translateY(0);
-    opacity: 100;
-    filter: blur(0);
+    transform: translateY(-20px);
+    filter: blur(5px);
+    opacity: 0;
 }
 
     /*  patricia  */
@@ -515,9 +515,9 @@ body{
     width: 80px;
     margin-top: 32px;
     transition: all 1s;
-    transform: translateY(-20px);
-    filter: blur(5px);
-    opacity: 0;
+    transform: translateY(0);
+    opacity: 100;
+    filter: blur(0);
 }
 
 #section1 .pat:hover{
@@ -528,9 +528,9 @@ body{
 
 
 #section1 .titengg{
-    transform: translateY(0);
-    opacity: 100;
-    filter: blur(0);
+    transform: translateY(-20px);
+    filter: blur(5px);
+    opacity: 0;
 }
 
 /*  lj  */
@@ -543,6 +543,9 @@ body{
     transform: translateY(-20px);
     opacity: 0;
     filter: blur(5px);
+    transform: translateY(0);
+    filter: blur(0);
+    opacity: 100;
 }
 
 #section1 .jay:hover{
@@ -553,9 +556,9 @@ body{
 
 
 #section1 .titenggg{
-    transform: translateY(0);
-    filter: blur(0);
-    opacity: 100;
+    transform: translateY(-20px);
+    opacity: 0;
+    filter: blur(5px);
 }
 
     #section1 h1{
@@ -594,9 +597,9 @@ body{
     margin-left: 20px;
     width: 80px;
     transition: all 1.5s;
-    transform: translateY(-20px);
-    filter: blur(5px);
-    opacity: 0;
+    transform: translateY(0);
+    opacity: 100;
+    filter: blur(0);
 }
 
 #section1 .ed:hover{
@@ -606,9 +609,9 @@ body{
 }
 
 #section1 .titeng{
-    transform: translateY(0);
-    opacity: 100;
-    filter: blur(0);
+    transform: translateY(-20px);
+    filter: blur(5px);
+    opacity: 0;
 }
 
     /*  patricia  */
@@ -619,9 +622,9 @@ body{
     width: 80px;
     margin-top: 32px;
     transition: all 1s;
-    transform: translateY(-20px);
-    filter: blur(5px);
-    opacity: 0;
+    transform: translateY(0);
+    opacity: 100;
+    filter: blur(0);
 }
 
 #section1 .pat:hover{
@@ -632,9 +635,9 @@ body{
 
 
 #section1 .titengg{
-    transform: translateY(0);
-    opacity: 100;
-    filter: blur(0);
+    transform: translateY(-20px);
+    filter: blur(5px);
+    opacity: 0;
 }
 
 /*  lj  */
@@ -644,9 +647,9 @@ body{
     width: 80px;
     margin-top: 32px;
     transition: all 0.7s;
-    transform: translateY(-20px);
-    opacity: 0;
-    filter: blur(5px);
+    transform: translateY(0);
+    filter: blur(0);
+    opacity: 100;
 }
 
 #section1 .jay:hover{
@@ -657,9 +660,9 @@ body{
 
 
 #section1 .titenggg{
-    transform: translateY(0);
-    filter: blur(0);
-    opacity: 100;
+    transform: translateY(-20px);
+    opacity: 0;
+    filter: blur(5px);
 }
 
     #section1 h1{
@@ -702,9 +705,9 @@ body{
             margin-left: 21px;
             width: 75px;
             transition: all 1.5s;
-            transform: translateY(-20px);
-            filter: blur(5px);
-            opacity: 0;
+            transform: translateY(0);
+            opacity: 100;
+            filter: blur(0);
         }
         
         #section1 .ed:hover{
@@ -714,9 +717,9 @@ body{
         }
         
         #section1 .titeng{
-            transform: translateY(0);
-            opacity: 100;
-            filter: blur(0);
+            transform: translateY(-20px);
+            filter: blur(5px);
+            opacity: 0;
         }
         
             /*  patricia  */
@@ -727,9 +730,9 @@ body{
             width: 75px;
             margin-top: 32px;
             transition: all 1s;
-            transform: translateY(-20px);
-            filter: blur(5px);
-            opacity: 0;
+            transform: translateY(0);
+            opacity: 100;
+            filter: blur(0);
         }
         
         #section1 .pat:hover{
@@ -740,9 +743,9 @@ body{
         
         
         #section1 .titengg{
-            transform: translateY(0);
-            opacity: 100;
-            filter: blur(0);
+            transform: translateY(-20px);
+            filter: blur(5px);
+            opacity: 0;
         }
         
         /*  lj  */
@@ -752,9 +755,9 @@ body{
             width: 75px;
             margin-top: 32px;
             transition: all 0.7s;
-            transform: translateY(-20px);
-            opacity: 0;
-            filter: blur(5px);
+            transform: translateY(0);
+            filter: blur(0);
+            opacity: 100;
         }
         
         #section1 .jay:hover{
@@ -765,9 +768,9 @@ body{
         
         
         #section1 .titenggg{
-            transform: translateY(0);
-            filter: blur(0);
+            transform: translateY(-20px);
             opacity: 100;
+            filter: blur(5px);
         }
 
     #section1 h1{
