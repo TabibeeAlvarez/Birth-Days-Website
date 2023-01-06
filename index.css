@@ -492,7 +492,7 @@ body{
     transition: all 1.5s;
     transform: translateY(-20px);
     filter: blur(0px);
-    opacity: 0;
+    opacity: 100;
 }
 
 #section1 .ed:hover{
@@ -517,7 +517,7 @@ body{
     transition: all 1s;
     transform: translateY(-20px);
     filter: blur(0px);
-    opacity: 0;
+    opacity: 100;
 }
 
 #section1 .pat:hover{
@@ -541,7 +541,7 @@ body{
     margin-top: 32px;
     transition: all 0.7s;
     transform: translateY(-20px);
-    opacity: 0;
+    opacity: 100;
     filter: blur(0px);
 }
 
@@ -596,7 +596,7 @@ body{
     transition: all 1.5s;
     transform: translateY(-20px);
     filter: blur(0px);
-    opacity: 0;
+    opacity: 100;
 }
 
 #section1 .ed:hover{
@@ -621,7 +621,7 @@ body{
     transition: all 1s;
     transform: translateY(-20px);
     filter: blur(0px);
-    opacity: 0;
+    opacity: 100;
 }
 
 #section1 .pat:hover{
@@ -645,7 +645,7 @@ body{
     margin-top: 32px;
     transition: all 0.7s;
     transform: translateY(-20px);
-    opacity: 0;
+    opacity: 100;
     filter: blur(0px);
 }
 
@@ -704,7 +704,7 @@ body{
             transition: all 1.5s;
             transform: translateY(-20px);
             filter: blur(0px);
-            opacity: 0;
+            opacity: 100;
         }
         
         #section1 .ed:hover{
@@ -729,7 +729,7 @@ body{
             transition: all 1s;
             transform: translateY(-20px);
             filter: blur(0px);
-            opacity: 0;
+            opacity: 100;
         }
         
         #section1 .pat:hover{
@@ -753,7 +753,7 @@ body{
             margin-top: 32px;
             transition: all 0.7s;
             transform: translateY(-20px);
-            opacity: 0;
+            opacity: 100;
             filter: blur(0px);
         }
         
