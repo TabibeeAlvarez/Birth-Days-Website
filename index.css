@@ -141,10 +141,14 @@ body{
 @media screen and (max-width: 2560px) and (min-width: 1440px) {
     #section1 #pick{
         margin-left: 1180px;
+        outline: none;
+        border-style: none;
     }
 
     #section1 #pickk{
         margin-left: 1240px;
+        outline: none;
+        border-style: none;
     }
 
     /*  edgar  */
@@ -223,10 +227,14 @@ body{
 @media screen and (max-width: 1440px) and (min-width: 1024px) {
     #section1 #pick{
         margin-left: 625px;
+        outline: none;
+        border-style: none;
     }
 
     #section1 #pickk{
         margin-left: 690px;
+        outline: none;
+        border-style: none;
     }
 
     /*  edgar  */
@@ -305,10 +313,14 @@ body{
 @media screen and (max-width: 1024px) and (min-width: 768px){
     #section1 #pick{
         margin-left: 420px;
+        outline: none;
+        border-style: none;
     }
 
     #section1 #pickk{
         margin-left: 480px;
+        outline: none;
+        border-style: none;
     }
 
     /*  edgar  */
@@ -388,11 +400,15 @@ body{
     #section1 #pick{
         margin-left: 290px;
         margin-top: 20px;
+        outline: none;
+        border-style: none;
     }
 
     #section1 #pickk{
         margin-left: 350px;
         margin-top: 20px;
+        outline: none;
+        border-style: none;
     }
 
    /*  edgar  */
@@ -476,11 +492,15 @@ body{
     #section1 #pick{
         margin-left: 120px;
         margin-top: 20px;
+        outline: none;
+        border-style: none;
     }
 
     #section1 #pickk{
         margin-left: 180px;
         margin-top: 20px;
+        outline: none;
+        border-style: none;
     }
 
        /*  edgar  */
@@ -490,7 +510,7 @@ body{
     margin-left: 40px;
     width: 80px;
     transition: all 1.5s;
-    transform: translateY(-20px);
+    transform: translateY(20);
     filter: blur(0px);
     opacity: 100;
 }
@@ -515,7 +535,7 @@ body{
     width: 80px;
     margin-top: 32px;
     transition: all 1s;
-    transform: translateY(-20px);
+    transform: translateY(20);
     filter: blur(0px);
     opacity: 100;
 }
@@ -540,7 +560,7 @@ body{
     width: 80px;
     margin-top: 32px;
     transition: all 0.7s;
-    transform: translateY(-20px);
+    transform: translateY(20);
     opacity: 100;
     filter: blur(0px);
 }
@@ -594,7 +614,7 @@ body{
     margin-left: 20px;
     width: 80px;
     transition: all 1.5s;
-    transform: translateY(-20px);
+    transform: translateY(20);
     filter: blur(0px);
     opacity: 100;
 }
@@ -619,7 +639,7 @@ body{
     width: 80px;
     margin-top: 32px;
     transition: all 1s;
-    transform: translateY(-20px);
+    transform: translateY(20);
     filter: blur(0px);
     opacity: 100;
 }
@@ -644,7 +664,7 @@ body{
     width: 80px;
     margin-top: 32px;
     transition: all 0.7s;
-    transform: translateY(-20px);
+    transform: translateY(20);
     opacity: 100;
     filter: blur(0px);
 }
@@ -702,7 +722,7 @@ body{
             margin-left: 21px;
             width: 75px;
             transition: all 1.5s;
-            transform: translateY(-20px);
+            transform: translateY(20);
             filter: blur(0px);
             opacity: 100;
         }
@@ -727,7 +747,7 @@ body{
             width: 75px;
             margin-top: 32px;
             transition: all 1s;
-            transform: translateY(-20px);
+            transform: translateY(20);
             filter: blur(0px);
             opacity: 100;
         }
@@ -752,7 +772,7 @@ body{
             width: 75px;
             margin-top: 32px;
             transition: all 0.7s;
-            transform: translateY(-20px);
+            transform: translateY(20);
             opacity: 100;
             filter: blur(0px);
         }
