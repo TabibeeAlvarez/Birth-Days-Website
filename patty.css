@@ -10,18 +10,115 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    color: black;
+}
+
 #home{
-    background-image: url(Earth.pat.jpg);
+    background-color: black;
     width: 100%;
     height: 100vh;
     background-size: cover;
+    background-blend-mode: darken;
 }
 
 #home .a{
     color: transparent;
 }
 
-#home .main-page h1{
+#home .earth{
+    width: 80%;
+    border-radius: 50rem;
+    opacity: 100%;
+    margin-top: 50px;
+    margin-left: 120px;
+    box-shadow: 4px 4px 16px white;
+}
+
+#home .trans{
+    color: white;
+    position: absolute;
+    margin-top: -500px;
+    font-size: 50px;
+    margin-left: 270px;
+    transition: all 1.5s;
+    transform: translateY(-50px);
+    filter: blur(5px);
+    opacity: 0;
+}
+
+#home .transition{
+    transform: translateY(0);
+    opacity: 100;
+    filter: blur(0);
+}
+
+#home .span1{
+    color: white;
+    font-size: 25px;
+    margin-top: -10px;
+    position: absolute;
+}
+
+#home .pipe{
+    color: grey;
+    margin-top: -400px;
+    margin-left: 270px;
+    font-size: 15px;
+    transition: all 1.5s;
+    transform: translateX(-50px);
+    filter: blur(5px);
+    opacity: 100;
+}
+
+#home .tits{
+    transform: translateX(0);
+    opacity: 100;
+    filter: blur(0);
+}
+
+#home #started{
+    background-color: cornflowerblue;
+    opacity: 70%;
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 630px;
+    margin-top: 50px;
+    border-radius: 1rem;
+    position: absolute;
+    transition: 0.5s;
+}
+
+#home #started:hover{
+    background-color: orange;
+    color: black;
+    transition: 0.5s;
+}
+
+#home #labas{
+    background-color: transparent;
+    color: beige;
+    border-radius: 1rem;
+    margin-left: 1000px;
+    margin-top: -230px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 70%;
+}
+
+#home #labas:hover{
+    color: orange;
+    transition: 0.5s;
+}
+
+/* #home .main-page h1{
     color: white;
     margin-left: 480px;
     font-size: 60px;
@@ -128,7 +225,7 @@ html{
 
 #home .box audio{
     display: none;
-}
+} */
 
 /*  section 2  */
 #about{
@@ -147,7 +244,7 @@ html{
     display: grid;
     place-items: center;
     align-content: center;
-    margin-left: 500px;
+    margin-left: 350px;
 }
 
 .hidden{
@@ -181,74 +278,92 @@ html{
     filter: blur(0);
 }
 
-.text{
-    color: white;
+#about .pic1{
+    display: none;
+    margin-left: 500px;
     margin-top: 250px;
-    margin-left: 50px;
     position: absolute;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    opacity: 0%;
-    transition: all 1.5s;
-    transform: translateX(-20%);
-    filter: blur(5px);
-    text-shadow: 2px 2px 4px #0084ff;
+    border-radius: 2rem;
 }
 
-.write{
-    opacity: 100%;
-    transform: translateX(0);
-    filter: blur(0);
-}
-
-.paper{
-    color: white;
+#about .pic2{
+    display: none;
+    margin-left: 500px;
+    margin-top: 300px;
     position: absolute;
-    margin-top: 450px;
-    margin-left: 420px;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    opacity: 0%;
-    transition: all 1.5s;
-    transform: translateX(50px);
-    filter: blur(5px);
-    text-shadow: 2px 2px 4px #0084ff;
+    border-radius: 2rem;
 }
 
-.sulatol{
-    opacity: 100%;
-    transform: translateX(0);
-    filter: blur(0);
-}
-
-#about .fb{
+#about .fa-angle-right{
+    display: none;
     color: white;
-    font-size: 25px;
-    text-decoration: none;
-    opacity: 0%;
-    transition: all 1.5s;
-    transform: translateX(-50px);
-    filter: blur(5px);
+    font-size: 40px;
+    margin-left: 780px;
+    margin-top: 420px;
+    position: absolute;
     cursor: grab;
 }
 
-#about .fa-brands{
-    color: #0084ff;
-    margin-top: 500px;
-    font-size: 25px;
-    margin-left: 50px;
-    cursor: grab;
-    
+#about .fa-angle-right:hover{
+    color: cornflowerblue;
+    transition: 0.5s;
 }
 
-#about .fa-brandss{
-    opacity: 100%;
-    transform: translateX(0);
+#about .fa-angle-left{
+    display: none;
+    color: white;
+    font-size: 40px;
+    margin-left: 450px;
+    margin-top: 420px;
+    position: absolute;
+    cursor: grab;
+}
+
+#about .fa-angle-left:hover{
+    color: cornflowerblue;
+    transition: 0.5s;
+}
+
+#about .fa-xmark{
+    display: none;
+    cursor: grab;
+    color: white;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 780px;
+    font-size: 25px;
+}
+
+#about #lovescars{
+    display: none;
+}
+
+#about .tite{
+    background-color: cornflowerblue;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2rem;
+    margin-left: 560px;
+    font-size: 25px;
+    margin-top: 400px;
+    transition: all 1.5s;
+    transform: translateY(-120px);
+    filter: blur(5px);
+    opacity: 0;
+}
+
+#about .tite:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+#about .clicker{
+    transform: translateY(0);
+    opacity: 100;
     filter: blur(0);
 }
-
 
 /*   section 3    */
 
@@ -260,17 +375,17 @@ html{
 
 #trivia .rocket{
     width: 200px;
-    margin-left: 560px;
+    margin-left: 615px;
     opacity: 100;
-    transform: translateY(-50px);
+    transform: translateY(150px);
     transition: all 1.5s;
     overflow: hidden;
-    cursor: not-allowed;
+    cursor: s-resize;
 }
 
 #trivia .shipp{
     opacity: 100%;
-    transform: translateY(1300px);
+    transform: translateY(1500px);
     transition: all 5s;
 }
 
@@ -281,7 +396,7 @@ html{
 #trivia .sets{
     width: 200px;
     float: right;
-    margin-right: 450px;
+    margin-right: 300px;
     margin-top: -100px;
     opacity: 0;
     transition: all 1.5s;
@@ -314,7 +429,7 @@ html{
 #trivia .sets2{
     width: 200px;
     float: right;
-    margin-right: 450px;
+    margin-right: 300px;
     margin-top: -100px;
     transform: translateX(200px);
     opacity: 0;
@@ -347,7 +462,7 @@ html{
 #trivia .sets4{
     width: 200px;
     float: right;
-    margin-right: 450px;
+    margin-right: 300px;
     margin-top: -100px;
     transition: all 1.5s;
     transform: translateX(200px);
@@ -364,13 +479,13 @@ html{
 #trivia .letter1{
     color: white;
     float: right;
-    margin-left: 1000px;
-    margin-top: -90px;
+    margin-left: 680px;
+    margin-top: 10px;
     position: absolute;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     transition: all 1.5s;
-    transform: translatey(-120px);
+    transform: translateY(-120px);
     filter: blur(5px);
     opacity: 0;
     overflow-x: hidden;
@@ -379,5 +494,321 @@ html{
 #trivia .sulat{
     opacity: 100;
     filter: blur(0);
-    transform: translatey(0);
+    transform: translateY(0);
+}
+
+#trivia .letter2{
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 12px;
+    margin-left: 90px;
+    margin-top: -250px;
+    position: absolute;
+    transition: all 1.5s;
+    transform: translateY(-120px);
+    filter: blur(5px);
+    opacity: 0;
+}
+
+#trivia .sulatt{
+    transform: translateY(0);
+    opacity: 100;
+    filter: blur(0);
+}
+
+#trivia .letter3{
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 12px;
+    float: right;
+    margin-top: -30px;
+    margin-left: 680px;
+    position: absolute;
+    transition: all 1.5s;
+    transform: translateY(-120px);
+    filter: blur(5px);
+    opacity: 0;
+}
+
+#trivia .sulattt{
+    transform: translateY(0);
+    filter: blur(0);
+    opacity: 100;
+}
+
+#trivia .letter4{
+    color: white;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 12px;
+    margin-top: -250px;
+    margin-left: 45px;
+    position: absolute;
+    transition: all 1.5s;
+    filter: blur(5px);
+    opacity: 0;
+    transform: translateY(-120px);
+}
+
+#trivia .sulatttt{
+    transform: translateY(0);
+    filter: blur(0);
+    opacity: 100;
+}
+
+#trivia .letter5{
+    color: white;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-left: 750px;
+    position: absolute;
+    transition: all 1.5s;
+    transform: translateY(-120px);
+    filter: blur(5px);
+    opacity: 0;
+}
+
+#trivia .sulattttt{
+    filter: blur(0);
+    opacity: 100;
+    transform: translateY(0);
+}
+
+#footer{
+    background-color: #333;
+    width: 100%;
+    height: 200px;
+}
+
+#footer img{
+    width: 300px;
+    margin-left: 560px;
+
+}
+
+#footer table{
+    margin-left: 470px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+#footer td{
+    border: solid 2px black;
+    color: black;
+    
+}
+
+#footer .copyright{
+    color: white;
+    font-size: 12px;
+    margin-left: 520px;
+    margin-top: 30px;
+}
+
+#footer .fb{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: black;
+}
+
+#footer .tt{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 200px;
+    font-size: 30px;
+    color: black;
+}
+
+#footer .yt{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 300px;
+    font-size: 30px;
+    color: black;
+}
+
+@media screen and (max-width: 1600px) {
+    #home .earth{
+        width: 80%;
+        margin-left: 150px;
+    }
+
+    #home .trans{
+        margin-top: -550px;
+    }
+
+    #home .pipe{
+        margin-left: 270px;
+        margin-top: -440px;
+    }
+
+    #home #started{
+        font-size: 25px;
+        margin-left: 720px;
+    }
+
+    #home #labas{
+        font-size: 25px;
+        margin-left: 1200px;
+        margin-top: -200px;
+    }
+
+    /*    section 2      */
+
+    #about{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #float h1{
+        font-size: 40px;
+        margin-left: 50px;
+    }
+
+    #about .tite{
+        font-size: 35px;
+        width: 20%;
+        margin-left: 450px;
+        margin-top: 500px;
+    }
+
+    #about .pic1{
+        width: 20%;
+        margin-top: 200px;
+    }
+
+    #about .pic2{
+        width: 20%;
+        margin-top: 200px;
+    }
+
+    #about .fa-angle-right{
+        margin-left: 850px;
+        margin-top: 450px;
+        font-size: 45px;
+    }
+
+    #about .fa-angle-left{
+        margin-left: 450px;
+        margin-top: 450px;
+        font-size: 45px;
+    }
+
+    #about .fa-xmark{
+        font-size: 45px;
+        margin-left: 850px;
+    }
+
+    /*     section 3      */
+
+    #trivia{
+        width: 100%;
+        height: 225vh;
+    }
+
+    #trivia .sets{
+        float: right;
+        margin-right: 480px;
+        margin-top: -40px;
+    }
+
+    #trivia .sets2{
+        margin-top: 440px;
+        float: right;
+        margin-right: -200px;
+    }
+
+    #trivia .sets4{
+        margin-top: 510px;
+        margin-right: 480px;
+        float: right;
+    }
+
+    /*   footer    */
+
+    #footer img{
+        width: 20%;
+        margin-left: 650px;
+    }
+
+    #footer .copyright{
+        margin-top: 10px;
+        margin-left: 600px;
+    }
+
+    #footer table{
+        margin-left: 550px;
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+    #home .trans{
+        margin-top: -430px;
+        opacity: 100;
+        filter: blur(0);
+    }
+
+    #home .pipe{
+        margin-top: -380px;
+        margin-left: 325px;
+        filter: blur(0);
+    }
+
+    #home #started{
+        margin-left: 650px;
+        margin-top: 150px;
+    }
+
+    #home #labas{
+        margin-left: 1000px;
+    }
+
+    /*   section 2     */
+
+    #about{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #about .pic1{
+        margin-top: 200px;
+    }
+
+    #about .pic2{
+        margin-top: 300px;
+    }
+
+    #about .fa-angle-right{
+        margin-left: 810px;
+    }
+
+    #about .fa-xmark{
+        font-size: 45px;
+        margin-left: 810px;
+    }
+
+    /*   section 3    */
+
+    .sets2{
+        position: absolute;
+        margin-left: 370px;
+    }
+
+    .sets4{
+        position: absolute;
+        margin-left: 370px;
+    }
+
+
 }

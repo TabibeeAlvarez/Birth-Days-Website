@@ -33,6 +33,43 @@ function exitt(){
     })
 }
 
+function loveee(){
+    document.querySelector('.pic2').style.display = 'block';
+    document.getElementById('love').style.display = 'none';
+    document.getElementById('right').style.display = 'block';
+    document.getElementById('exittt').style.display = 'block';
+    document.getElementById('left').style.display = 'none';
+    window.addEventListener('click', () => {
+        document.getElementById('lovescars').play();
+    })
+}
+
+function exittt(){
+    document.querySelector('.pic1').style.display = 'none';
+    document.querySelector('.pic2').style.display = 'none';
+    document.getElementById('right').style.display = 'none';
+    document.getElementById('exittt').style.display = 'none';
+    document.getElementById('love').style.display = 'block';
+    document.getElementById('left').style.display = 'none';
+    window.addEventListener('click', () => {
+        document.getElementById('lovescars').pause();
+    })
+}
+
+function right(){
+    document.querySelector('.pic2').style.display = 'none'
+    document.querySelector('.pic1').style.display = 'block';
+    document.getElementById('right').style.display = 'none';
+    document.getElementById('left').style.display = 'block';
+}
+
+function left(){
+    document.querySelector('.pic1').style.display = 'none';
+    document.querySelector('.pic2').style.display = 'block';
+    document.getElementById('left').style.display = 'none';
+    document.getElementById('right').style.display = 'block';
+}
+
 const boxes = document.querySelectorAll('.hidden');
 window.addEventListener('scroll', checkBoxes);
 
@@ -47,6 +84,24 @@ function checkBoxes(){
         }
         else{
             box.classList.remove('show')
+        }
+    })
+}
+
+const clickme = document.querySelectorAll('.tite');
+window.addEventListener('scroll', clicks);
+
+function clicks(){
+    const triggerBottom = window.innerHeight / 2 * 1.5;
+
+    clickme.forEach(click => {
+        const clickTop = click.getBoundingClientRect().top;
+
+        if(clickTop < triggerBottom){
+            click.classList.add('clicker')
+        }
+        else{
+            click.classList.remove('clicker')
         }
     })
 }
@@ -69,59 +124,82 @@ function litaWin(){
     })
 }
 
-const letter = document.querySelectorAll('.text');
-window.addEventListener('scroll', sulat);
+const trans = document.querySelectorAll('.trans');
+window.addEventListener('load', tran);
 
-function sulat(){
-    const triggerBottom = window.innerHeight / 5 * 4;
+function tran(){
+    const triggerBottom = window.innerHeight / 2 * 1.5;
 
-    letter.forEach(let => {
-        const letTop = let.getBoundingClientRect().top;
+    trans.forEach(tra => {
+        const traTop = tra.getBoundingClientRect().top;
 
-        if(letTop < triggerBottom){
-            let.classList.add('write')
-        }   
-        else{
-            let.classList.remove('write')
-        }
-    })
-}
-
-const paper = document.querySelectorAll('.paper');
-window.addEventListener('scroll', papel);
-
-function papel(){
-    const triggerBottom = window.innerHeight / 3 * 2;
-
-    paper.forEach(pap => {
-        const papTop = pap.getBoundingClientRect().top;
-
-        if(papTop < triggerBottom){
-            pap.classList.add('sulatol')
-        }   
-        else{
-            pap.classList.remove('sulatol')
-        }
-    })
-}
-
-const face = document.querySelectorAll('.fb');
-window.addEventListener('scroll', muka);
-
-function muka(){
-    const triggerBottom = window.innerHeight / 3 * 2;
-
-    face.forEach(book => {
-        const bookTop = book.getBoundingClientRect().top;
-
-        if(bookTop < triggerBottom){
-            book.classList.add('fa-brandss')
+        if(traTop < triggerBottom){
+            tra.classList.add('transition')
         }
         else{
-            book.classList.remove('fa-brandss')
+            tra.classList.remove('transition')
         }
     })
+
 }
+
+const pepe = document.querySelectorAll('.pipe');
+window.addEventListener('load', peps);
+
+function peps(){
+    const triggerBottom = window.innerHeight / 2 * 1.5;
+
+    pepe.forEach(pips => {
+        const pipsTop = pips.getBoundingClientRect().top;
+
+        if(pipsTop < triggerBottom){
+            pips.classList.add('tits')
+        }
+        else{
+            pips.classList.remove('tits')
+        }
+    })
+
+}
+
+
+// const letter = document.querySelectorAll('.text');
+// window.addEventListener('scroll', sulat);
+
+// function sulat(){
+//     const triggerBottom = window.innerHeight / 5 * 4;
+
+//     letter.forEach(let => {
+//         const letTop = let.getBoundingClientRect().top;
+
+//         if(letTop < triggerBottom){
+//             let.classList.add('write')
+//         }   
+//         else{
+//             let.classList.remove('write')
+//         }
+//     })
+// }
+
+// const paper = document.querySelectorAll('.paper');
+// window.addEventListener('scroll', papel);
+
+// function papel(){
+//     const triggerBottom = window.innerHeight / 3 * 2;
+
+//     paper.forEach(pap => {
+//         const papTop = pap.getBoundingClientRect().top;
+
+//         if(papTop < triggerBottom){
+//             pap.classList.add('sulatol')
+//         }   
+//         else{
+//             pap.classList.remove('sulatol')
+//         }
+//     })
+// }
+
+//SECTION 3
 
 const rocket = document.querySelectorAll('.rocket');
 window.addEventListener('scroll', ship);
@@ -143,7 +221,7 @@ function ship(){
 
 function trivia(){
     window.addEventListener('mouseover', () => {
-        document.getElementById('tugtog').lay();
+        document.getElementById('tugtog').play();
     })
 }
 
@@ -259,6 +337,79 @@ function letter11(){
         }
         else{
             let.classList.remove('sulat')
+        }
+    })
+}
+
+const letter2 = document.querySelectorAll('.letter2');
+window.addEventListener('scroll', letter22);
+
+function letter22(){
+    const triggerBottom = window.innerHeight / 2 * 1.5;
+
+    letter2.forEach(lett => {
+        const lettTop = lett.getBoundingClientRect().top;
+
+        if(lettTop < triggerBottom){
+            lett.classList.add('sulatt')
+        }
+        else{
+            lett.classList.remove('sulatt')
+        }
+    })
+}
+
+const letter3 = document.querySelectorAll('.letter3');
+window.addEventListener('scroll', letter33);
+
+function letter33(){
+    const triggerBottom = window.innerHeight / 2 * 1.5;
+
+    letter3.forEach(lettt => {
+        const letttTop = lettt.getBoundingClientRect().top;
+
+        if(letttTop < triggerBottom){
+            lettt.classList.add('sulattt')
+        }
+        else{
+            lettt.classList.remove('sulattt')
+        }
+    })
+}
+
+const letter4 = document.querySelectorAll('.letter4');
+window.addEventListener('scroll', letter44);
+
+function letter44(){
+    const triggerBottom = window.innerHeight / 2 * 1.5;
+    
+    letter4.forEach(letttt => {
+        const lettttTop = letttt.getBoundingClientRect().top;
+
+        if(lettttTop < triggerBottom){
+            letttt.classList.add('sulatttt')
+        }
+        else{
+            letttt.classList.remove('sulatttt')
+        }
+
+    })
+}
+
+const letter5 = document.querySelectorAll('.letter5');
+window.addEventListener('scroll', letter55);
+
+function letter55(){
+    const triggerBottom = window.innerHeight / 2 * 1.5;
+
+    letter5.forEach(lettttt => {
+        const letttttTop = lettttt.getBoundingClientRect().top;
+
+        if(letttttTop < triggerBottom){
+            lettttt.classList.add('sulattttt')
+        }
+        else{
+            lettttt.classList.remove('sulattttt')
         }
     })
 }
